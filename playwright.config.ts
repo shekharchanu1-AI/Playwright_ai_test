@@ -13,9 +13,9 @@ reporter: [
 // Minimal console output
 ["html", { open: "never", outputFolder: "reports" }], // HTML Report
 //['json', { outputFile: 'reports/results.json' }], // JSON Report
-["junit", { outputFile: "reports/results.xml" }], // JUnit XML Report
-["./utils/CustomReporter.ts"], // Custom reporter
-["allure-playwright", { outputFolder: "allure-results" }], // Allure Report
+// ["junit", { outputFile: "reports/results.xml" }], // JUnit XML Report
+// ["./utils/CustomReporter.ts"], // Custom reporter
+// ["allure-playwright", { outputFolder: "allure-results" }], // Allure Report
 ],
 use: {
 trace: "on-first-retry",

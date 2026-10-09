@@ -26,7 +26,7 @@ viewport: { width: 1280, height: 720 }, // Set default viewport size for consist
 ignoreHTTPSErrors: true, // Ignore SSL errors if necessary
 permissions: ["geolocation"], // Set necessary permissions for geolocation-based tests
 },
-grep: /@master/,
+// grep: /@master/,
 projects: [
 {
 name: "chromium",

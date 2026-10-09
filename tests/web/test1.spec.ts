@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test'
 import dotenv from 'dotenv'
 
-test('Test1 @regression', async ({ page }) => {
+test('Test1 @e2e', async ({ page }) => {
     const url = process.env.WEB_APP_URL;
 
     if (!url) {

@@ -1,0 +1,11 @@
+{
+    "firstname": "Chandra",
+    "lastname": "black",
+    "totalprice": 2000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-08-01",
+      "checkout": "2026-08-05"
+    },
+    "additionalneeds": "Dinner"
+  }

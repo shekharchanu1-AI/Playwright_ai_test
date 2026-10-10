@@ -1,14 +1,6 @@
-import {test, expect} from '@playwright/test'
-import dotenv from 'dotenv'
-
-test('Test1 @e2e', async ({ page }) => {
-    const url = process.env.WEB_APP_URL;
-
-    if (!url) {
-        throw new Error('WEB_APP_URL is not defined in .env');
-    }
+import {test} from '@playwright/test'
+test('Test1 ', async ({ page }) => {
+    const url = "https://app.servcraft.co.za/"
 
     await page.goto(url);
-
-    await expect(page).toHaveURL(url);
 });

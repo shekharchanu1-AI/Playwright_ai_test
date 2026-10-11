@@ -5,7 +5,7 @@
       "value": "authenticated",
       "domain": "sdetqa.vercel.app",
       "path": "/",
-      "expires": 1792306448,
+      "expires": 1792311233,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -15,7 +15,7 @@
       "value": "admin",
       "domain": "sdetqa.vercel.app",
       "path": "/",
-      "expires": 1792306448,
+      "expires": 1792311233,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"

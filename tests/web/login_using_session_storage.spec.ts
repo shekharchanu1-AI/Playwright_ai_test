@@ -3,7 +3,7 @@ import fs from 'fs'
 
 test.describe.configure({mode :'serial'})
 
-test ("Login to admin user with session storage data  @datadriven", async ({browser})=>{
+test ("Login to admin user with session storage data  ", async ({browser})=>{
 const context =  await browser.newContext();
 const page = await context.newPage();
 
@@ -24,7 +24,7 @@ await page.goto('https://sdetqa.vercel.app/login_app');
 
 });
 
-test ("Login to testuser user with session storage data @datadriven", async ({browser})=>{
+test ("Login to testuser user with session storage data ", async ({browser})=>{
 const context =  await browser.newContext();
 const page = await context.newPage();
 const sessionStorageData = JSON.parse(fs.readFileSync('./storage_data/session_user_data.json','utf-8'))

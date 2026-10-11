@@ -1,0 +1,1 @@
+[{"name":"auth_session_admin","value":"authenticated","domain":"sdetqa.vercel.app","path":"/","expires":1792293852,"httpOnly":false,"secure":false,"sameSite":"Lax"},{"name":"auth_session_user","value":"admin","domain":"sdetqa.vercel.app","path":"/","expires":1792293852,"httpOnly":false,"secure":false,"sameSite":"Lax"}]

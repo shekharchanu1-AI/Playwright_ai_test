@@ -5,7 +5,7 @@ function readJsonFile (filePath : string){
     return JSON.parse(fs.readFileSync(filePath, 'utf-8'))
 }
 
-test ('test create, get, get token, partial update put and delete @datadriven',async({request})=>{
+test ('test create, get, get token, partial update put and delete ',async({request})=>{
 
     // step 1 : create the resource 
     const BASE_URL ='https://restful-booker.herokuapp.com/'
